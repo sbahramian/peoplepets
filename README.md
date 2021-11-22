@@ -4,7 +4,8 @@
 
 PeoplePets is an backend development evaluation task. In this program, you can see how to create, read, edit and delete through the web service with Mango database.
 
-Goals
+# Goals
+
 1. To produce a fully working proof of concept API server and accompanying NoSQL
 database layer
 2. Use an existing open-source modules to quickly build new products
