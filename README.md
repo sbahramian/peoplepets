@@ -101,7 +101,7 @@ $ git clone --recurse-submodule https://github.com/sbahramian/peoplepets.git
 To download node modules, type:
 
 ```shell
-$ cd peoplepets-backend
+$ cd peoplepets
 $ yarn install
 ```
 
