@@ -17,7 +17,8 @@ database layer
   - [1.1 Production](#1-1-production)
   - [1.2 Development](#1-2-development)
 - [2. Project architecture](#2-project-architecture)
-- [3. Contribution](#3-contribution)
+- [3. API documentation](#3-api-documentation)
+- [4. Contribution](#4-contribution)
 
 # 1. Installation
 
@@ -120,7 +121,10 @@ $ yarn serve
 
 <p align="center"><img src="./docs/figures/database.png"/></p>
 
+# 3. API documentation
 
-# 3. Contribution
+You can use the **postman.json** file. Import it in Postman. Download link (postman.json)
+
+# 4. Contribution
 
 For contribution please read our [contribution guide](docs/contribution) section carefully.
