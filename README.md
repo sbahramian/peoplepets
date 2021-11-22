@@ -123,7 +123,7 @@ $ yarn serve
 
 # 3. API documentation
 
-You can use the **postman.json** file. Import it in Postman. Download link [](https://github.com/sbahramian/peoplepets/blob/main/postman.json)
+You can use the **postman.json** file. Import it in Postman. Download link [https://github.com/sbahramian/peoplepets/blob/main/postman.json]
 
 # 4. Contribution
 
