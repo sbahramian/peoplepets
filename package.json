@@ -4,7 +4,7 @@
   "description": "People Pets framework",
   "main": "src/app.ts",
   "scripts": {
-    "serve": "nodemon --config nodemon.json ./src/app.ts",
+    "serve": "cp -rf ./.env.example ./.env && nodemon --config nodemon.json ./src/app.ts",
     "build": "tsc && tsc-alias && cp -rf ./.env.production ./dist/.env &&  cp -rf ./package.json ./dist && cp -rf ./src/resource/locales ./dist/src/resource",
     "build:docker": "mkdir -p bin && docker-compose build && docker image save -o ./bin/peoplepets-backend.tar peoplepets-backend",
     "clean": "tsc --build --clean && sudo rm -rf ./dist && sudo rm -rf ./tmp"
