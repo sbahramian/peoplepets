@@ -1,0 +1,33 @@
+{
+    "error": {
+        "middleware": {
+            "validator": {
+                "schema": {
+                    "MISSING_REQUIRED_CONTENT": "'%s' couldn't be empty.",
+                    "TYPE_ERROR": "'%s' should be a valid %s.",
+                    "INVALID_FORMAT": "Invalid %s format."
+                }
+            }
+        },
+        "EQUAL_ID": "%s and %s should not be equal.",
+        "NOT_FOUND": "There is not such a %s!",
+        "ERROR_404": "Request failed successfully.",
+        "PET_HAS_OWNER": "The pet has an owner."
+    },
+    "info": {
+        "middleware": {
+            "validator": {
+                "people": {
+                    "PEOPLE_NAME_ALREADY_EXISTS": "This people name is already exists among peoples table.",
+                    "PEOPLE_HAS_PETS": "To remove people, you must first release the animals.",
+                    "PEOPLE_HAS_FRINDS": "To remove people, you must first check it with your friends."
+                },
+                "pet": {
+                    "PET_NAME_ALREADY_EXISTS": "A pet with this information has already been registered.",
+                    "PET_NOT_EXISTS": "A pet is not registered with this information.",
+                    "PET_HAS_OWNER_NOT_DELETED": "This pet has an owner. To delete the beginning, you must delete the information from the owner."                
+                }
+            }
+        }
+    }
+}

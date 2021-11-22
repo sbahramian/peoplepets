@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "CommonJS", 
+    "allowJs": false,
+    "sourceMap": false, 
+    "outDir": "./dist", 
+    "rootDir": "./", 
+    "strict": true, 
+    "noImplicitAny": false,
+    "baseUrl": ".", 
+    "paths": {
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@controllers/*": [
+        "./src/controller/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@models/*": [
+        "./src/model/*"
+      ],
+      "@middlewares/*": [
+        "./src/middleware/*"
+      ],
+      "@listeners/*": [
+        "./src/listener/*"
+      ],
+      "@storage/*": [
+        "./src/storage/*"
+      ],
+      "@resources/*": [
+        "./src/resource/*"
+      ],
+      "@database/*": [
+        "./src/database/*"
+      ]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

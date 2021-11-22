@@ -1,0 +1,21 @@
+version: "3"
+services:
+  app:
+    container_name: peoplepets-backend
+    image: peoplepets-backend
+    restart: always
+    build: ./
+    ports:
+      - 80:3000
+    volumes:
+    - ./tmp:/app
+    - ./tmp/error.log:/usr/src/app/error.log
+    links:
+    - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    expose:
+     - 27017
+    volumes:
+    - ./tmp/data:/data/db
